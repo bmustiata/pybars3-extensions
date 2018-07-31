@@ -9,7 +9,7 @@ statements.
 
 Template:
 
-```hbs
+```handlebars
 {{#each cool.items}}
 {{#switch this.type}}
 {{#case '1'}}MATCH: {{this}}{{/case}}
